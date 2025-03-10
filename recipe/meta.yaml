@@ -1,5 +1,5 @@
 {% set name = "harissa" %}
-{% set version = "3.1.0" %}
+{% set version = "3.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f7e6e2b7d06c57b3dd7a73c63d86e74d815d62a7228aaaa06dac31c9aeaa2e1d
+  sha256: a75e1a52e0e532ab850de5f14692e4d9178346b6ab18e98ad2348bb8ccc56755
 
 build:
   noarch: python
